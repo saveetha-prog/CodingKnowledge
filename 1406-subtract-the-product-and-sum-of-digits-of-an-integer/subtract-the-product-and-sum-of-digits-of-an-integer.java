@@ -3,7 +3,7 @@ class Solution {
         int pro=1;
         int sum=0;
         int rem=0;
-        while(n!=0){
+        while(n>0){
             rem=n%10;
             pro=pro*rem;
             sum=sum+rem;
