@@ -4,6 +4,9 @@ class Solution {
         double Far=0;
         kelvin=celsius+273.15;
         Far=(celsius*1.80)+32.00;
-        return new double[]{kelvin,Far};
+        double[] ans=new double[2];
+        ans[0]=kelvin;
+        ans[1]=Far;
+        return ans;
     }
 }
