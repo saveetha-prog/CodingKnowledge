@@ -35,7 +35,7 @@ class Solution {
                     queue.add(current.right);
                 }
             }
-           // depth++; 
+           
         }
         return depth;
     }
